@@ -11,7 +11,7 @@ function inputLength() {
 function createListElement() {
   var li = document.createElement("li");
   var btn = document.createElement("button");
-  btn.innerHTML = "Remove";
+  btn.innerHTML = "X";
   btn.setAttribute("class", "removeLi");
 
   li.appendChild(document.createTextNode(input.value));
